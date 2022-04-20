@@ -10,7 +10,7 @@ namespace Work7
             int timeScope = 10;
             int hourInQuea;
             int minutsInQuea;
-            int pepolsToUseInHours = 6;
+            int pepolsToUseInHours = 60/timeScope;
 
             Console.Write("Количество человек в очереди : ");
             peoplsInQeua = Convert.ToInt32(Console.ReadLine());
