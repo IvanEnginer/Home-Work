@@ -1,0 +1,16 @@
+D:\Unity Works\HomeWorks\HomeWork2\bin\Debug\net5.0\HomeWork2.exe
+D:\Unity Works\HomeWorks\HomeWork2\bin\Debug\net5.0\HomeWork2.deps.json
+D:\Unity Works\HomeWorks\HomeWork2\bin\Debug\net5.0\HomeWork2.runtimeconfig.json
+D:\Unity Works\HomeWorks\HomeWork2\bin\Debug\net5.0\HomeWork2.runtimeconfig.dev.json
+D:\Unity Works\HomeWorks\HomeWork2\bin\Debug\net5.0\HomeWork2.dll
+D:\Unity Works\HomeWorks\HomeWork2\bin\Debug\net5.0\ref\HomeWork2.dll
+D:\Unity Works\HomeWorks\HomeWork2\bin\Debug\net5.0\HomeWork2.pdb
+D:\Unity Works\HomeWorks\HomeWork2\obj\Debug\net5.0\HomeWork2.csproj.AssemblyReference.cache
+D:\Unity Works\HomeWorks\HomeWork2\obj\Debug\net5.0\HomeWork2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Unity Works\HomeWorks\HomeWork2\obj\Debug\net5.0\HomeWork2.AssemblyInfoInputs.cache
+D:\Unity Works\HomeWorks\HomeWork2\obj\Debug\net5.0\HomeWork2.AssemblyInfo.cs
+D:\Unity Works\HomeWorks\HomeWork2\obj\Debug\net5.0\HomeWork2.csproj.CoreCompileInputs.cache
+D:\Unity Works\HomeWorks\HomeWork2\obj\Debug\net5.0\HomeWork2.dll
+D:\Unity Works\HomeWorks\HomeWork2\obj\Debug\net5.0\ref\HomeWork2.dll
+D:\Unity Works\HomeWorks\HomeWork2\obj\Debug\net5.0\HomeWork2.pdb
+D:\Unity Works\HomeWorks\HomeWork2\obj\Debug\net5.0\HomeWork2.genruntimeconfig.cache

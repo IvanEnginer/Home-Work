@@ -1,0 +1,16 @@
+D:\Unity Works\HomeWorks\Work7\bin\Debug\net5.0\Work7.exe
+D:\Unity Works\HomeWorks\Work7\bin\Debug\net5.0\Work7.deps.json
+D:\Unity Works\HomeWorks\Work7\bin\Debug\net5.0\Work7.runtimeconfig.json
+D:\Unity Works\HomeWorks\Work7\bin\Debug\net5.0\Work7.runtimeconfig.dev.json
+D:\Unity Works\HomeWorks\Work7\bin\Debug\net5.0\Work7.dll
+D:\Unity Works\HomeWorks\Work7\bin\Debug\net5.0\ref\Work7.dll
+D:\Unity Works\HomeWorks\Work7\bin\Debug\net5.0\Work7.pdb
+D:\Unity Works\HomeWorks\Work7\obj\Debug\net5.0\Work7.GeneratedMSBuildEditorConfig.editorconfig
+D:\Unity Works\HomeWorks\Work7\obj\Debug\net5.0\Work7.AssemblyInfoInputs.cache
+D:\Unity Works\HomeWorks\Work7\obj\Debug\net5.0\Work7.AssemblyInfo.cs
+D:\Unity Works\HomeWorks\Work7\obj\Debug\net5.0\Work7.csproj.CoreCompileInputs.cache
+D:\Unity Works\HomeWorks\Work7\obj\Debug\net5.0\Work7.dll
+D:\Unity Works\HomeWorks\Work7\obj\Debug\net5.0\ref\Work7.dll
+D:\Unity Works\HomeWorks\Work7\obj\Debug\net5.0\Work7.pdb
+D:\Unity Works\HomeWorks\Work7\obj\Debug\net5.0\Work7.genruntimeconfig.cache
+D:\Unity Works\HomeWorks\Work7\obj\Debug\net5.0\Work7.csproj.AssemblyReference.cache
