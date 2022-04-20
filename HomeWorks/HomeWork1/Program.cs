@@ -15,7 +15,7 @@ namespace homeWork
             char rank = 'A';
             string name = "Jone";
             ushort temperature;
-            bool windowIsOpen;
+            bool isWindowOpen;
         }
     }
 }
