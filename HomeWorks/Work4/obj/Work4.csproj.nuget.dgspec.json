@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Unity Works\\HomeWorks\\Work4\\Work4.csproj": {}
+    "D:\\Home-Work\\HomeWorks\\Work4\\Work4.csproj": {}
   },
   "projects": {
-    "D:\\Unity Works\\HomeWorks\\Work4\\Work4.csproj": {
+    "D:\\Home-Work\\HomeWorks\\Work4\\Work4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Unity Works\\HomeWorks\\Work4\\Work4.csproj",
+        "projectUniqueName": "D:\\Home-Work\\HomeWorks\\Work4\\Work4.csproj",
         "projectName": "Work4",
-        "projectPath": "D:\\Unity Works\\HomeWorks\\Work4\\Work4.csproj",
+        "projectPath": "D:\\Home-Work\\HomeWorks\\Work4\\Work4.csproj",
         "packagesPath": "C:\\Users\\Иван\\.nuget\\packages\\",
-        "outputPath": "D:\\Unity Works\\HomeWorks\\Work4\\obj\\",
+        "outputPath": "D:\\Home-Work\\HomeWorks\\Work4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

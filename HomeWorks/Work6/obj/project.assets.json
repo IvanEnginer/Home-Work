@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Unity Works\\HomeWorks\\Work6\\Work6.csproj",
+      "projectUniqueName": "D:\\Home-Work\\HomeWorks\\Work6\\Work6.csproj",
       "projectName": "Work6",
-      "projectPath": "D:\\Unity Works\\HomeWorks\\Work6\\Work6.csproj",
+      "projectPath": "D:\\Home-Work\\HomeWorks\\Work6\\Work6.csproj",
       "packagesPath": "C:\\Users\\Иван\\.nuget\\packages\\",
-      "outputPath": "D:\\Unity Works\\HomeWorks\\Work6\\obj\\",
+      "outputPath": "D:\\Home-Work\\HomeWorks\\Work6\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
