@@ -9,7 +9,8 @@ namespace Work4
             uint lineCopasity = 3;
             uint folderCopasity = 52;
             uint fullLines =folderCopasity / lineCopasity;
-            Console.WriteLine("Full lines = " + fullLines);
+            uint remainder = folderCopasity - fullLines;
+            Console.WriteLine("Full lines = " + fullLines + "," + " remainder = " + remainder);
         }
     }
 }
