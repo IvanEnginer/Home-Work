@@ -14,3 +14,19 @@ D:\Unity Works\HomeWorks\Work3\obj\Debug\net5.0\Work3.dll
 D:\Unity Works\HomeWorks\Work3\obj\Debug\net5.0\ref\Work3.dll
 D:\Unity Works\HomeWorks\Work3\obj\Debug\net5.0\Work3.pdb
 D:\Unity Works\HomeWorks\Work3\obj\Debug\net5.0\Work3.genruntimeconfig.cache
+D:\Home-Work\HomeWorks\Work3\obj\Debug\net5.0\Work3.csproj.AssemblyReference.cache
+D:\Home-Work\HomeWorks\Work3\obj\Debug\net5.0\Work3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Home-Work\HomeWorks\Work3\obj\Debug\net5.0\Work3.AssemblyInfoInputs.cache
+D:\Home-Work\HomeWorks\Work3\obj\Debug\net5.0\Work3.AssemblyInfo.cs
+D:\Home-Work\HomeWorks\Work3\obj\Debug\net5.0\Work3.csproj.CoreCompileInputs.cache
+D:\Home-Work\HomeWorks\Work3\obj\Debug\net5.0\Work3.dll
+D:\Home-Work\HomeWorks\Work3\obj\Debug\net5.0\ref\Work3.dll
+D:\Home-Work\HomeWorks\Work3\obj\Debug\net5.0\Work3.pdb
+D:\Home-Work\HomeWorks\Work3\bin\Debug\net5.0\Work3.exe
+D:\Home-Work\HomeWorks\Work3\bin\Debug\net5.0\Work3.deps.json
+D:\Home-Work\HomeWorks\Work3\bin\Debug\net5.0\Work3.runtimeconfig.json
+D:\Home-Work\HomeWorks\Work3\bin\Debug\net5.0\Work3.runtimeconfig.dev.json
+D:\Home-Work\HomeWorks\Work3\bin\Debug\net5.0\Work3.dll
+D:\Home-Work\HomeWorks\Work3\bin\Debug\net5.0\ref\Work3.dll
+D:\Home-Work\HomeWorks\Work3\bin\Debug\net5.0\Work3.pdb
+D:\Home-Work\HomeWorks\Work3\obj\Debug\net5.0\Work3.genruntimeconfig.cache

@@ -8,7 +8,7 @@ namespace Work3
         {
             string name;
             int age;
-            string signAstra;
+            string zodiacSign;
             string work;
             Console.Write("Введите свое имя : ");
             name = Console.ReadLine();
@@ -17,8 +17,8 @@ namespace Work3
             Console.Write("Сколько вам лет : ");
             age = Convert.ToInt32(Console.ReadLine());
             Console.Write("Какой ваш знак зодиака : ");
-            signAstra = Console.ReadLine();
-            Console.WriteLine($"Вас зовут {name}, вам {age} год, вы {signAstra} и работаете {work}.");
+            zodiacSign = Console.ReadLine();
+            Console.WriteLine($"Вас зовут {name}, вам {age} год, вы {zodiacSign} и работаете {work}.");
         }
     }
 }
