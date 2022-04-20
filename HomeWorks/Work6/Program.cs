@@ -7,14 +7,14 @@ namespace Work6
         static void Main(string[] args)
         {
             int goldInWalet;
- //           int cristalForSales;
+            int cristalForSales;
             int cristalNead;
             int crystaPrice = 1;
 
             Console.Write("Введите колличество золота : ");
             goldInWalet = Convert.ToInt32( Console.ReadLine());
-            
-            Console.WriteLine("Вы можете купить " + (goldInWalet / crystaPrice) + " кристалов");
+            cristalForSales = goldInWalet / crystaPrice;
+            Console.WriteLine("Вы можете купить " + cristalForSales + " кристалов");
             Console.WriteLine("Введите количество кристалов которые хотите купить : ");
             cristalNead = Convert.ToInt32(Console.ReadLine());
             goldInWalet = goldInWalet - cristalNead * crystaPrice;
