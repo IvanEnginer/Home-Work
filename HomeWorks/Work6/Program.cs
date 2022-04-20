@@ -17,7 +17,8 @@ namespace Work6
             Console.WriteLine("Вы можете купить " + (goldInWalet / crystaPrice) + " кристалов");
             Console.WriteLine("Введите количество кристалов которые хотите купить : ");
             cristalNead = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine($"у вас осталось {goldInWalet = goldInWalet - cristalNead * crystaPrice} золота и крисалов {cristalNead}");
+            goldInWalet = goldInWalet - cristalNead * crystaPrice;
+            Console.WriteLine($"у вас осталось {goldInWalet} золота и крисалов {cristalNead}");
         }
     }
 }
