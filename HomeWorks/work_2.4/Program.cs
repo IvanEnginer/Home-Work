@@ -6,9 +6,9 @@ namespace work_2._4
     {
         static void Main(string[] args)
         {
-            Random rand = new Random();
+            Random random = new Random();
 
-            int number = rand.Next(0, 101);
+            int number = random.Next(0, 101);
             int summ = 0;
             int totalsum = 0;
             int multipleNumer1 = 3;

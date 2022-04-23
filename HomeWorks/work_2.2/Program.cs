@@ -7,17 +7,18 @@ namespace work_2._2
         static void Main(string[] args)
         {
             string userMasseg;
+            bool tryAgain = true;
 
-            while(true)
+            while (tryAgain)
             {
                 Console.Write("Что бы выйти из программы введите exit: ");
                 userMasseg = Console.ReadLine();
-
-                if (userMasseg == "exit")break;
-
                 Console.WriteLine($"Вы ввели {userMasseg}");
-            }
 
+                if (userMasseg == "exit")
+                    tryAgain = false;  
+                
+            }
         }
     }
 }
