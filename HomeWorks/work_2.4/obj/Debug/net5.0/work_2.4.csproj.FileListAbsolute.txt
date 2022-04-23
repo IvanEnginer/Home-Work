@@ -1,0 +1,16 @@
+D:\Home-Work\HomeWorks\work_2.4\bin\Debug\net5.0\work_2.4.exe
+D:\Home-Work\HomeWorks\work_2.4\bin\Debug\net5.0\work_2.4.deps.json
+D:\Home-Work\HomeWorks\work_2.4\bin\Debug\net5.0\work_2.4.runtimeconfig.json
+D:\Home-Work\HomeWorks\work_2.4\bin\Debug\net5.0\work_2.4.runtimeconfig.dev.json
+D:\Home-Work\HomeWorks\work_2.4\bin\Debug\net5.0\work_2.4.dll
+D:\Home-Work\HomeWorks\work_2.4\bin\Debug\net5.0\ref\work_2.4.dll
+D:\Home-Work\HomeWorks\work_2.4\bin\Debug\net5.0\work_2.4.pdb
+D:\Home-Work\HomeWorks\work_2.4\obj\Debug\net5.0\work_2.4.GeneratedMSBuildEditorConfig.editorconfig
+D:\Home-Work\HomeWorks\work_2.4\obj\Debug\net5.0\work_2.4.AssemblyInfoInputs.cache
+D:\Home-Work\HomeWorks\work_2.4\obj\Debug\net5.0\work_2.4.AssemblyInfo.cs
+D:\Home-Work\HomeWorks\work_2.4\obj\Debug\net5.0\work_2.4.csproj.CoreCompileInputs.cache
+D:\Home-Work\HomeWorks\work_2.4\obj\Debug\net5.0\work_2.4.dll
+D:\Home-Work\HomeWorks\work_2.4\obj\Debug\net5.0\ref\work_2.4.dll
+D:\Home-Work\HomeWorks\work_2.4\obj\Debug\net5.0\work_2.4.pdb
+D:\Home-Work\HomeWorks\work_2.4\obj\Debug\net5.0\work_2.4.genruntimeconfig.cache
+D:\Home-Work\HomeWorks\work_2.4\obj\Debug\net5.0\work_2.4.csproj.AssemblyReference.cache
