@@ -33,11 +33,10 @@ namespace work_2._4
             {
                 if (i % multipleNumer1 == 0)
                 {
-                    summ += multipleNumer1;
+                    summ += i;
                 }
-
                 else if (i % multipleNumer2 == 0)
-                    summ += multipleNumer2;
+                    summ += i;
             }
 
             Console.WriteLine("number : " + number + ", total summ : " + summ);

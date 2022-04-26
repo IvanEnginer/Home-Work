@@ -6,6 +6,7 @@ namespace Work7
     {
         static void Main(string[] args)
         {
+            int minuteInHour = 60;
             int peoplsInQeua;
             int timeScope = 10;
             int hourInQuea;
@@ -16,8 +17,8 @@ namespace Work7
             peoplsInQeua = Convert.ToInt32(Console.ReadLine());
 
             totalMinutsInQuea = peoplsInQeua * timeScope;
-            hourInQuea = totalMinutsInQuea / 60;
-            minutsInQuea = totalMinutsInQuea - (hourInQuea * 60);
+            hourInQuea = totalMinutsInQuea / minuteInHour;
+            minutsInQuea = totalMinutsInQuea - (hourInQuea * minuteInHour);
 
             Console.WriteLine($"Вы должны отстоять в очереди {hourInQuea} часа и {minutsInQuea} минут.");
         }
