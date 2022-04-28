@@ -26,7 +26,9 @@ namespace work_2._5
             string exitSign = "exit";
             string reqwestForExite;
 
-            while(true)
+            bool whileConvertation = true;
+
+            while(whileConvertation)
             {
                 Console.WriteLine("Введите 1 для обмена Functik на Tugrik ");
                 Console.WriteLine("Введите 2 для обмена Bunktik на Tugrik ");
@@ -67,13 +69,15 @@ namespace work_2._5
                         }
                         tugrikBankAccount -= swapWalet;
                         bunktikBankAccount += swapWalet;
-                        break;
-                    
+                        break;                    
                 }
+
                 Console.WriteLine($"На ваших считах  functik {bunktikBankAccount} tugrik {tugrikBankAccount} bunktik {bunktikBankAccount}");
                 Console.WriteLine("Введите exit для выхода из программы, no для продолжения");
                 reqwestForExite = Console.ReadLine();
-                if(reqwestForExite == exitSign) break;
+
+                if (reqwestForExite == exitSign)
+                    whileConvertation = false;
             }
 
             Console.WriteLine("Программа завершена");
