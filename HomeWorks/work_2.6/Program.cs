@@ -29,9 +29,11 @@ namespace work_2._6
             // введите секретное слово для опозноования
             // завершить формирование команды  
 
-            string setTeamName = "Нет иформации", changeFlagCollar = "Нет иформации", setSicretSign = "Нет иформации";
+            string setTeamName = "Нет иформации";
+            string changeFlagCollar = "Нет иформации";
+            string setSicretSign = "Нет иформации";
             int choisCommand, setGamers = 0;
-            bool getOut = true;
+            bool whileSetGetTeamData = true;
 
 
             //Console.WriteLine("Программа для создания вашего отряда.\n\n" +
@@ -41,7 +43,7 @@ namespace work_2._6
             //    "Для ввода секретного слова введите 4.\n" +
             //    "Для вывода иформации о команде введите 5.\n" +
             //    "Для завешения программы введите 6.");
-            while(getOut)
+            while(whileSetGetTeamData)
             {
                 Console.WriteLine("Программа для создания вашего отряда.\n\n" +
                     "Для ввода названия команды введите 1.\n" +
@@ -85,7 +87,7 @@ namespace work_2._6
                             }                                              
                         break;
                     case 6:
-                        getOut = false;
+                        whileSetGetTeamData = false;
                         break;
                 }
             }
