@@ -32,7 +32,8 @@ namespace work_2._6
             string setTeamName = "Нет иформации";
             string changeFlagCollar = "Нет иформации";
             string setSicretSign = "Нет иформации";
-            int choisCommand, setGamers = 0;
+            int choisCommand;
+            int setGamers = 0;
             bool whileSetGetTeamData = true;
 
 
