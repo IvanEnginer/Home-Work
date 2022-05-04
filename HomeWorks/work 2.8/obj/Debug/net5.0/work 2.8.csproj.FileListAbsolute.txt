@@ -1,0 +1,16 @@
+D:\Home-Work\HomeWorks\work 2.8\bin\Debug\net5.0\work 2.8.exe
+D:\Home-Work\HomeWorks\work 2.8\bin\Debug\net5.0\work 2.8.deps.json
+D:\Home-Work\HomeWorks\work 2.8\bin\Debug\net5.0\work 2.8.runtimeconfig.json
+D:\Home-Work\HomeWorks\work 2.8\bin\Debug\net5.0\work 2.8.runtimeconfig.dev.json
+D:\Home-Work\HomeWorks\work 2.8\bin\Debug\net5.0\work 2.8.dll
+D:\Home-Work\HomeWorks\work 2.8\bin\Debug\net5.0\ref\work 2.8.dll
+D:\Home-Work\HomeWorks\work 2.8\bin\Debug\net5.0\work 2.8.pdb
+D:\Home-Work\HomeWorks\work 2.8\obj\Debug\net5.0\work 2.8.GeneratedMSBuildEditorConfig.editorconfig
+D:\Home-Work\HomeWorks\work 2.8\obj\Debug\net5.0\work 2.8.AssemblyInfoInputs.cache
+D:\Home-Work\HomeWorks\work 2.8\obj\Debug\net5.0\work 2.8.AssemblyInfo.cs
+D:\Home-Work\HomeWorks\work 2.8\obj\Debug\net5.0\work 2.8.csproj.CoreCompileInputs.cache
+D:\Home-Work\HomeWorks\work 2.8\obj\Debug\net5.0\work 2.8.dll
+D:\Home-Work\HomeWorks\work 2.8\obj\Debug\net5.0\ref\work 2.8.dll
+D:\Home-Work\HomeWorks\work 2.8\obj\Debug\net5.0\work 2.8.pdb
+D:\Home-Work\HomeWorks\work 2.8\obj\Debug\net5.0\work 2.8.genruntimeconfig.cache
+D:\Home-Work\HomeWorks\work 2.8\obj\Debug\net5.0\work 2.8.csproj.AssemblyReference.cache
