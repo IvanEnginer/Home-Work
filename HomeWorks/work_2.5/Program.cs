@@ -6,11 +6,10 @@ namespace work_2._5
     {
         static void Main(string[] args)
         {
-            int functikBankAccount, tugrikBankAccount, bunktikBankAccount;
 
-            functikBankAccount = 100;
-            tugrikBankAccount = 50;
-            bunktikBankAccount = 20;
+            int functikBankAccount = 100;
+            int tugrikBankAccount = 50;
+            int bunktikBankAccount = 20;
 
             int rateFunctikToTugrik, rateBunktikToTugrik, rateTugrikToBunktik;
 
@@ -26,9 +25,9 @@ namespace work_2._5
             string exitSign = "exit";
             string reqwestForExite;
 
-            bool whileConvertation = true;
+            bool whileTheConvertation = true;
 
-            while(whileConvertation)
+            while(whileTheConvertation)
             {
                 Console.WriteLine("Введите 1 для обмена Functik на Tugrik ");
                 Console.WriteLine("Введите 2 для обмена Bunktik на Tugrik ");
@@ -42,32 +41,38 @@ namespace work_2._5
                 {
                     case 1:
                         swapWalet = rateFunctikToTugrik * reqwestCash;
+
                         if (swapWalet > functikBankAccount)
                         {
                             Console.WriteLine("Средст для обмена недостаточно ");
                             break;
                         }
-                        functikBankAccount -= swapWalet;
+
+                        functikBankAccount = functikBankAccount - reqwestCash;
                         tugrikBankAccount += swapWalet;
                         break;
                     case 2:
                         swapWalet = rateBunktikToTugrik * reqwestCash;
+
                         if (swapWalet > tugrikBankAccount)
                         {
                             Console.WriteLine("Средст для обмена недостаточно ");
                             break;
                         }
-                        bunktikBankAccount -= swapWalet;
+
+                        bunktikBankAccount = bunktikBankAccount - swapWalet;
                         tugrikBankAccount += swapWalet;
                         break;
                     case 3:
                         swapWalet = rateTugrikToBunktik * reqwestCash;
+
                         if (swapWalet > bunktikBankAccount)
                         {
                             Console.WriteLine("Средст для обмена недостаточно ");
                             break;
                         }
-                        tugrikBankAccount -= swapWalet;
+
+                        tugrikBankAccount = swapWalet - tugrikBankAccount;
                         bunktikBankAccount += swapWalet;
                         break;                    
                 }
@@ -77,7 +82,8 @@ namespace work_2._5
                 reqwestForExite = Console.ReadLine();
 
                 if (reqwestForExite == exitSign)
-                    whileConvertation = false;
+                    whileTheConvertation = false;
+
             }
 
             Console.WriteLine("Программа завершена");

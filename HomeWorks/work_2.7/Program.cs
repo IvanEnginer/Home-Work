@@ -6,6 +6,8 @@ namespace work_2._7
     {
         static void Main(string[] args)
         {
+            //1.Стоит собрать строку из символов через цикл string += char; и вывести строку 2 раза.
+
             string userString;
             string userSign;
 
@@ -23,21 +25,27 @@ namespace work_2._7
 
             lenghUserString = userString.Length;
 
-            for(int i = 1; i <= lines; i++)
+            for(int i = 0; i < lenghUserString + numberStartsSimbol + numberEndSimbol; i++)
             {
-                if(i == numberUserStringLine)
-                {
-                    Console.WriteLine(userSign + userString + userSign);
-                }
-                else
-                {
-                    for(int j = 0; j < lenghUserString + numberStartsSimbol + numberEndSimbol; j++)
-                    {
-                        Console.Write(userSign);
-                    }
-                    Console.WriteLine();
-                }
+
             }
+
+            //for(int i = 1; i < lines; i++)
+            //{
+
+            //    //if(i == numberUserStringLine)
+            //    //{
+            //    //    Console.WriteLine(userSign + userString + userSign);
+            //    //}
+            //    //else
+            //    //{
+            //    //    for(int j = 0; j < lenghUserString + numberStartsSimbol + numberEndSimbol; j++)
+            //    //    {
+            //    //        Console.Write(userSign);
+            //    //    }
+            //    //    Console.WriteLine();
+            //    //}
+            //}
         }
     }
 }
