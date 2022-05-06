@@ -7,28 +7,30 @@ namespace work_2._9
         static void Main(string[] args)
         {
             Random random = new Random();
-            int N = random.Next(1, 27);
-            int startPoint = N;
+            int randomStartBorder = 1;
+            int randomEndBorder = 27;
+            int randomNumber = random.Next(randomStartBorder, randomEndBorder);
+            int startPoint = randomNumber;
             int startReng = 100;
             int endReng = 1000;
             int amoundMultipelNumbers = 0;
 
-            Console.WriteLine("N " + N);
+            Console.WriteLine("Random number " + randomNumber);
 
             while(startPoint < startReng)
             {
-                startPoint += N;
+                startPoint += randomNumber;
             }
 
             Console.WriteLine("Start POint " + startPoint);
 
-            for (int i = startPoint; i < endReng; i += N)
+            for (int i = startPoint; i < endReng; i += randomNumber)
             {
                 amoundMultipelNumbers++;
                 Console.WriteLine(i);
             }
 
-            Console.WriteLine("amoundMultipelNumbers " + amoundMultipelNumbers);
+            Console.WriteLine("Amound multipel numbers " + amoundMultipelNumbers);
         }
     }
 }
