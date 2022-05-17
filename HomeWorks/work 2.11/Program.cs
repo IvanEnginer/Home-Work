@@ -4,9 +4,12 @@ namespace work_2._11
 {
     class Program
     {
+        //"(()))(()" 
         static void Main(string[] args)
         {
-            string stringForAnalis = "(()(()))";     
+            string stringForAnalis = "(()(()))";
+
+            stringForAnalis = "(()))(()";
 
             char simbolTipyA = '(';
             char simbolTipyB = ')';
@@ -20,73 +23,98 @@ namespace work_2._11
 
             bool enableChekThisString = true;
 
-            if (stringLenght % fondation == 0)
-            {
-                enableChekThisString = true;
-            }
-            else
-            {
-                enableChekThisString = false;
-            }
-
-            if(stringForAnalis[0] == simbolTipyB)
-            {
-                enableChekThisString = false;
-            }
-
-            if(stringForAnalis[stringLenght - 1] == simbolTipyA)
-            {
-                enableChekThisString = false;
-            }
-
+            int max = 0 ;
 
             for (int i = 0; i < stringLenght; i++)
-            {
-
-                if (stringForAnalis[i] == simbolTipyA)
-                    amountSimbolTipyA++;
-
-                if (stringForAnalis[i] == simbolTipyB)
-                    amountSimbolTipyB++;
-
-            }
-
-            if (amountSimbolTipyA == amountSimbolTipyB)
-            {
-                enableChekThisString = true;
-            }
-            else
-            {
-                enableChekThisString = false;
-            }
-
-            if (enableChekThisString)
-            {
-                for (int i = 0; i < stringLenght; i++)
+            { 
+                if(stringForAnalis[i] == '(')
                 {
-
-                    if (stringForAnalis[i] == simbolTipyA)
-                    {
-                        currentMaximum++;
-
-                        if (currentMaximum > maxmum)
-                            maxmum = currentMaximum;
-
-                    }
-                    else if (stringForAnalis[i] == simbolTipyB)
-                    {
-
-                        if (currentMaximum > 0)
-                            currentMaximum--;
-
-                    }
+                    maxmum++;
                 }
-                Console.WriteLine(maxmum);
+                if (stringForAnalis[i] == ')')
+                {
+                    maxmum--;
+                }
+                if (maxmum > max)
+                {
+                    max = maxmum;
+                }
+
+                if (max < 0)
+                {
+                    Console.WriteLine("fail");
+                }
             }
-            else
-            {
-                Console.WriteLine("Fail");
-            }
+
+            Console.WriteLine(max);
+
+            //if (stringLenght % fondation == 0)
+            //{
+            //    enableChekThisString = true;
+            //}
+            //else
+            //{
+            //    enableChekThisString = false;
+            //}
+
+            //if(stringForAnalis[0] == simbolTipyB)
+            //{
+            //    enableChekThisString = false;
+            //}
+
+            //if(stringForAnalis[stringLenght - 1] == simbolTipyA)
+            //{
+            //    enableChekThisString = false;
+            //}
+
+
+            //for (int i = 0; i < stringLenght; i++)
+            //{
+
+            //    if (stringForAnalis[i] == simbolTipyA)
+            //        amountSimbolTipyA++;
+
+            //    if (stringForAnalis[i] == simbolTipyB)
+            //        amountSimbolTipyB++;
+
+            //}
+
+            //if (amountSimbolTipyA == amountSimbolTipyB)
+            //{
+            //    enableChekThisString = true;
+            //}
+            //else
+            //{
+            //    enableChekThisString = false;
+            //}
+
+            //if (enableChekThisString)
+            //{
+            //    for (int i = 0; i < stringLenght; i++)
+            //    {
+
+            //        if (stringForAnalis[i] == simbolTipyA)
+            //        {
+            //            currentMaximum++;
+
+            //            if (currentMaximum > maxmum)
+            //                maxmum = currentMaximum;
+
+            //        }
+            //        else if (stringForAnalis[i] == simbolTipyB)
+            //        {
+
+            //            if (currentMaximum > 0)
+            //                currentMaximum--;
+
+            //        }
+            //    }
+            //    Console.WriteLine(maxmum);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Fail");
+            //}
 
         }
     }
