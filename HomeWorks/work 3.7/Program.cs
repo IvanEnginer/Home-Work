@@ -6,7 +6,17 @@ namespace work_3._7
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string streingForSplit = "You win some. You lose some.";
+
+            string[] arrayWords = streingForSplit.Split(' ');
+
+            int position = 0;
+
+            foreach (var Substring in arrayWords)
+            {
+                Console.WriteLine($"Подстрока {position} : {Substring}");
+                position++;
+            }
         }
     }
 }

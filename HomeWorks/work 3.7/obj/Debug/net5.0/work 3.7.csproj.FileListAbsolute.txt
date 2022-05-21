@@ -1,0 +1,15 @@
+D:\Home-Work\HomeWorks\work 3.7\bin\Debug\net5.0\work 3.7.exe
+D:\Home-Work\HomeWorks\work 3.7\bin\Debug\net5.0\work 3.7.deps.json
+D:\Home-Work\HomeWorks\work 3.7\bin\Debug\net5.0\work 3.7.runtimeconfig.json
+D:\Home-Work\HomeWorks\work 3.7\bin\Debug\net5.0\work 3.7.runtimeconfig.dev.json
+D:\Home-Work\HomeWorks\work 3.7\bin\Debug\net5.0\work 3.7.dll
+D:\Home-Work\HomeWorks\work 3.7\bin\Debug\net5.0\ref\work 3.7.dll
+D:\Home-Work\HomeWorks\work 3.7\bin\Debug\net5.0\work 3.7.pdb
+D:\Home-Work\HomeWorks\work 3.7\obj\Debug\net5.0\work 3.7.GeneratedMSBuildEditorConfig.editorconfig
+D:\Home-Work\HomeWorks\work 3.7\obj\Debug\net5.0\work 3.7.AssemblyInfoInputs.cache
+D:\Home-Work\HomeWorks\work 3.7\obj\Debug\net5.0\work 3.7.AssemblyInfo.cs
+D:\Home-Work\HomeWorks\work 3.7\obj\Debug\net5.0\work 3.7.csproj.CoreCompileInputs.cache
+D:\Home-Work\HomeWorks\work 3.7\obj\Debug\net5.0\work 3.7.dll
+D:\Home-Work\HomeWorks\work 3.7\obj\Debug\net5.0\ref\work 3.7.dll
+D:\Home-Work\HomeWorks\work 3.7\obj\Debug\net5.0\work 3.7.pdb
+D:\Home-Work\HomeWorks\work 3.7\obj\Debug\net5.0\work 3.7.genruntimeconfig.cache
