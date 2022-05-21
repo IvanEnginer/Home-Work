@@ -6,27 +6,26 @@ namespace work_3._4
     {
         static void Main(string[] args)
         {
-            int lengthArray = 0;
-            int[] arrayNumbers = new int[lengthArray];
-            int[] arrayCopyNumbers = new int[lengthArray];
-            int arraySum = 0;
+            int lengthArray;
+            int[] arrayNumbers;
+            int[] arrayCopyNumbers;
 
-            int number;
-            int stepArrayAdd = 1;
-
-            bool enableTheCounter = true;
+            bool enableCounter = true;
 
             string messageUser;
 
-            while (enableTheCounter)
+            while (enableCounter)
             {
                 Console.WriteLine("Введите число, exit или sum: ");
                 messageUser = Console.ReadLine();
 
                 if (messageUser != "sum" && messageUser != "exit")
                 {
-                    number = Convert.ToInt32(messageUser);
-                    lengthArray += stepArrayAdd;
+                    int number = Convert.ToInt32(messageUser);
+
+                    arrayCopyNumbers = new int[];
+
+                    lengthArray += 1;
                     arrayNumbers = new int[lengthArray];
 
                     for (int i = 0; i < arrayCopyNumbers.Length; i++)
@@ -34,7 +33,7 @@ namespace work_3._4
                         arrayNumbers[i] = arrayCopyNumbers[i];
                     }
 
-                    arrayNumbers[lengthArray - stepArrayAdd] = number;
+                    arrayNumbers[lengthArray - 1] = number;
                     arrayCopyNumbers = new int[lengthArray];
 
                     for (int i = 0; i < arrayNumbers.Length; i++)
@@ -42,11 +41,13 @@ namespace work_3._4
                         arrayCopyNumbers[i] = arrayNumbers[i];
                     }
 
-                    arrayCopyNumbers[lengthArray - stepArrayAdd] = number;
+                    arrayCopyNumbers[lengthArray - 1] = number;
                 }
 
                 else if (messageUser == "sum")
                 {
+                    int arraySum = 0;
+
                     for (int i = 0; i < arrayNumbers.Length; i++)
                     arraySum += arrayNumbers[i];
 
@@ -56,7 +57,7 @@ namespace work_3._4
 
                 else if (messageUser == "exit")
                 {
-                    enableTheCounter = false;
+                    enableCounter = false;
                 }
             }
         }
