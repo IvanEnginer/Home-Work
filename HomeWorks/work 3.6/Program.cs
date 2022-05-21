@@ -9,32 +9,29 @@ namespace work_3._6
             int maximumNumber = 100;
             int maximumArraySize = 10;
 
-            int[] arr = new int [maximumArraySize];
+            int[] array = new int [maximumArraySize];
 
             Random random = new Random();
 
-            for (int i = 0; i < arr.Length; i++)
-            {
-                int number = random.Next(0, maximumNumber);
-                arr[i] = number;
-            }
+            for (int i = 0; i < array.Length; i++)
+                array[i] = random.Next(0, maximumNumber);
 
             int temp = 0;
             
-            for (int write = 0; write < arr.Length; write++)
+            for (int i = 0; i < array.Length; i++)
             { 
-                for (int sort = 0; sort < arr.Length - 1; sort++)
+                for (int j = 0; j < array.Length - 1; j++)
                 { 
-                    if (arr[sort] > arr[sort + 1]) 
+                    if (array[j] > array[j + 1]) 
                     { 
-                        temp = arr[sort + 1]; 
-                        arr[sort + 1] = arr[sort]; 
-                        arr[sort] = temp; 
+                        temp = array[j + 1]; 
+                        array[j + 1] = array[j]; 
+                        array[j] = temp; 
                     } 
                 } 
             }
-            for (int i = 0; i < arr.Length; i++) 
-                Console.Write(arr[i] + " ");
+            for (int i = 0; i < array.Length; i++) 
+                Console.Write(array[i] + " ");
         }
     }
 }
