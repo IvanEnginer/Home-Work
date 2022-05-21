@@ -6,17 +6,12 @@ namespace work_3._7
     {
         static void Main(string[] args)
         {
-            string streingForSplit = "You win some. You lose some.";
+            string stringForSplit = "You win some. You lose some.";
 
-            string[] arrayWords = streingForSplit.Split(' ');
+            string[] arrayWords = stringForSplit.Split(' ');
 
-            int position = 0;
-
-            foreach (var Substring in arrayWords)
-            {
-                Console.WriteLine($"Подстрока {position} : {Substring}");
-                position++;
-            }
+            for(int i = 0; i < arrayWords.Length; i++)
+                Console.WriteLine($"Подстрока {i} : {arrayWords[i]}");
         }
     }
 }
