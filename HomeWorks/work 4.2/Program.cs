@@ -19,10 +19,11 @@ namespace ConsoleApplication13
             percent = Convert.ToInt32(Console.ReadLine());
 
             Console.Clear();
-            creatBar(posiition, percent);
+            CreatBar(posiition, percent);
+            Console.ReadKey();
         }
 
-        static void creatBar(int position, int percent)
+        static void CreatBar(int position, int percent)
         {
             int columInBar = 10;
             int newPersent = percent / columInBar;
@@ -33,14 +34,10 @@ namespace ConsoleApplication13
             Console.ForegroundColor = ConsoleColor.Red;
 
             for (int i = 0; i < newPersent; i++)
-            {
                 bar += "#";
-            }
 
             for (int i = newPersent + 1; i <= columInBar; i++)
-            {
                 bar += "_";
-            }
 
             bar += "]";
 

@@ -9,10 +9,10 @@ namespace ConsoleApplication14
     {
         static void Main(string[] args)
         {
-            ChekuserMaseg();
+            ChekUserMassegOnRuls();
         }
 
-        static int ChekuserMaseg()
+        static int ChekUserMassegOnRuls()
         {
             bool tryIsWhile = true;
             int number = 0;
