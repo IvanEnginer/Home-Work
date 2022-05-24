@@ -1,0 +1,16 @@
+D:\Home-Work\HomeWorks\work 4.1\bin\Debug\net5.0\work 4.1.exe
+D:\Home-Work\HomeWorks\work 4.1\bin\Debug\net5.0\work 4.1.deps.json
+D:\Home-Work\HomeWorks\work 4.1\bin\Debug\net5.0\work 4.1.runtimeconfig.json
+D:\Home-Work\HomeWorks\work 4.1\bin\Debug\net5.0\work 4.1.runtimeconfig.dev.json
+D:\Home-Work\HomeWorks\work 4.1\bin\Debug\net5.0\work 4.1.dll
+D:\Home-Work\HomeWorks\work 4.1\bin\Debug\net5.0\ref\work 4.1.dll
+D:\Home-Work\HomeWorks\work 4.1\bin\Debug\net5.0\work 4.1.pdb
+D:\Home-Work\HomeWorks\work 4.1\obj\Debug\net5.0\work 4.1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Home-Work\HomeWorks\work 4.1\obj\Debug\net5.0\work 4.1.AssemblyInfoInputs.cache
+D:\Home-Work\HomeWorks\work 4.1\obj\Debug\net5.0\work 4.1.AssemblyInfo.cs
+D:\Home-Work\HomeWorks\work 4.1\obj\Debug\net5.0\work 4.1.csproj.CoreCompileInputs.cache
+D:\Home-Work\HomeWorks\work 4.1\obj\Debug\net5.0\work 4.1.dll
+D:\Home-Work\HomeWorks\work 4.1\obj\Debug\net5.0\ref\work 4.1.dll
+D:\Home-Work\HomeWorks\work 4.1\obj\Debug\net5.0\work 4.1.pdb
+D:\Home-Work\HomeWorks\work 4.1\obj\Debug\net5.0\work 4.1.genruntimeconfig.cache
+D:\Home-Work\HomeWorks\work 4.1\obj\Debug\net5.0\work 4.1.csproj.AssemblyReference.cache
