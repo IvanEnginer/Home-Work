@@ -28,11 +28,9 @@ namespace ConsoleApplication13
             int columInBar = 10;
             int newPersent = percent / columInBar;
 
-
             string bar = "[";
 
             Console.ForegroundColor = ConsoleColor.Red;
-
 
             for (int i = 0; i < newPersent; i++)
                 bar += "#";

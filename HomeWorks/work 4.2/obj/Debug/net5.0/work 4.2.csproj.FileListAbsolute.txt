@@ -13,3 +13,4 @@ D:\Home-Work\HomeWorks\work 4.2\obj\Debug\net5.0\work 4.2.dll
 D:\Home-Work\HomeWorks\work 4.2\obj\Debug\net5.0\ref\work 4.2.dll
 D:\Home-Work\HomeWorks\work 4.2\obj\Debug\net5.0\work 4.2.pdb
 D:\Home-Work\HomeWorks\work 4.2\obj\Debug\net5.0\work 4.2.genruntimeconfig.cache
+D:\Home-Work\HomeWorks\work 4.2\obj\Debug\net5.0\work 4.2.csproj.AssemblyReference.cache

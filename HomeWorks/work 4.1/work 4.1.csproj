@@ -6,4 +6,8 @@
     <RootNamespace>work_4._1</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Include="E:\code\Program4.1.cs" Link="Program4.1.cs" />
+  </ItemGroup>
+
 </Project>
