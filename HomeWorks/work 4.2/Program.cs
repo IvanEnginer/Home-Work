@@ -33,6 +33,7 @@ namespace ConsoleApplication13
 
             Console.ForegroundColor = ConsoleColor.Red;
 
+
             for (int i = 0; i < newPersent; i++)
                 bar += "#";
 
