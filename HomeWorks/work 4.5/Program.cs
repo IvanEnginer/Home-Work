@@ -17,10 +17,10 @@ namespace ConsoleApplication16
 
             FillArray(array);
             Console.WriteLine("Исходный массив");
-            outArray(array);
-            shuffleArray(array);
+            OutArray(array);
+            ShuffleArray(array);
             Console.WriteLine("\nПеремешанный массив");
-            outArray(array);
+            OutArray(array);
         }
 
         static void FillArray(int[] array)
@@ -35,7 +35,7 @@ namespace ConsoleApplication16
             }
         }
 
-        static void outArray(int[] array)
+        static void OutArray(int[] array)
         {
 
             for (int i = 0; i < array.Length; i++)
@@ -45,7 +45,7 @@ namespace ConsoleApplication16
 
         }
 
-        static void shuffleArray(int[] array)
+        static void ShuffleArray(int[] array)
         {
             Random random = new Random();
 
