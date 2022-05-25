@@ -9,10 +9,10 @@ namespace ConsoleApplication14
     {
         static void Main(string[] args)
         {
-            ReturnOnlyNumbers();
+            ReturnNumbers();
         }
 
-        static int ReturnOnlyNumbers()
+        static int ReturnNumbers()
         {
             bool tryIsWhile = true;
             int number = 0;
