@@ -15,7 +15,7 @@ namespace ConsoleApplication16
 
             int[] array = new int[random.Next(0, maximumColumArray)];
 
-            fualArray(array);
+            FillArray(array);
             Console.WriteLine("Исходный массив");
             outArray(array);
             shuffleArray(array);
@@ -23,7 +23,7 @@ namespace ConsoleApplication16
             outArray(array);
         }
 
-        static void fualArray(int[] array)
+        static void FillArray(int[] array)
         {
             Random random = new Random();
 
