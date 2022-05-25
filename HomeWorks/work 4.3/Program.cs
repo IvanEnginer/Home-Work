@@ -9,10 +9,10 @@ namespace ConsoleApplication14
     {
         static void Main(string[] args)
         {
-            ChekUserMassegOnRuls();
+            ReturnOnlyNumbers();
         }
 
-        static int ChekUserMassegOnRuls()
+        static int ReturnOnlyNumbers()
         {
             bool tryIsWhile = true;
             int number = 0;
