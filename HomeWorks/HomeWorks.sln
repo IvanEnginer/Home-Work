@@ -59,11 +59,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "work 3.8", "work 3.8\work 3
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "work 4.1", "work 4.1\work 4.1.csproj", "{58C3F6C5-ED85-443B-87B3-34A87CF06BDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "work 4.2", "work 4.2\work 4.2.csproj", "{A1FCE969-E31B-4B9F-847B-DB905E1741D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "work 4.2", "work 4.2\work 4.2.csproj", "{A1FCE969-E31B-4B9F-847B-DB905E1741D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "work 4.3", "work 4.3\work 4.3.csproj", "{C41E3731-325F-4FB7-9765-5185E3CEE043}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "work 4.3", "work 4.3\work 4.3.csproj", "{C41E3731-325F-4FB7-9765-5185E3CEE043}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "work 4.5", "work 4.5\work 4.5.csproj", "{929325CB-6AB7-431D-A78A-A94DDE2FD067}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "work 4.5", "work 4.5\work 4.5.csproj", "{929325CB-6AB7-431D-A78A-A94DDE2FD067}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "work 4.4", "work 4.4\work 4.4.csproj", "{246A3950-25CD-44D8-89BA-474F346172F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -195,6 +197,10 @@ Global
 		{929325CB-6AB7-431D-A78A-A94DDE2FD067}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{929325CB-6AB7-431D-A78A-A94DDE2FD067}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{929325CB-6AB7-431D-A78A-A94DDE2FD067}.Release|Any CPU.Build.0 = Release|Any CPU
+		{246A3950-25CD-44D8-89BA-474F346172F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{246A3950-25CD-44D8-89BA-474F346172F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{246A3950-25CD-44D8-89BA-474F346172F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{246A3950-25CD-44D8-89BA-474F346172F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
