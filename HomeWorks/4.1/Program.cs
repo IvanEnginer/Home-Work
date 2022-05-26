@@ -45,19 +45,15 @@ namespace ConsoleApplication12
                 Console.Clear();
             }
         }
-
         static string[] ExpansionArray(string[] array)
         {
             string[] modifiedArray = new string[array.Length + 1];
 
             for (int i = 0; i < array.Length; i++)
-            {
                 modifiedArray[i] = array[i];
-            }
 
             return modifiedArray;
         }
-
         static string[] AddDataDosser(string[] array, string massege)
         {
             Console.Write(massege);
@@ -65,43 +61,34 @@ namespace ConsoleApplication12
             array[array.Length - 1] = Console.ReadLine();
             return array;
         }
-
         static string[] DeliteDosser(string[] array, int numberDosser)
         {
             string[] modifiedArray = new string[array.Length - 1];
 
             for (int i = 0; i < modifiedArray.Length; i++)
             {
+
                 if (i != numberDosser - 1)
-                {
                     modifiedArray[i] = array[i];
-                }
                 else
-                {
                     modifiedArray[i] = array[i + 1];
-                }
+
             }
 
             return modifiedArray;
         }
-
         static void InputDataDosser(ref string[] surnameNameMidleName, ref string[] post)
         {
             surnameNameMidleName = AddDataDosser(surnameNameMidleName, "Enter Surname Name Midle Name: ");
             post = AddDataDosser(post, "Enter post worker: ");
         }
-
         static void OutAllDossers(string[] surnameNameMidleName, string[] post)
         {
 
             for (int i = 0; i < surnameNameMidleName.Length; i++)
-            {
-
                 Console.WriteLine("Surname Name Midle Name: " + surnameNameMidleName[i] + " Post: " + post[i]);
-            }
 
         }
-
         static void DeliteDosser( ref string[] surnameNameMidleName, ref string[] post)
         {
             Console.Write("Enter number dosser for delite: ");
@@ -109,11 +96,9 @@ namespace ConsoleApplication12
             surnameNameMidleName = DeliteDosser(surnameNameMidleName, numberOfDosser);
             post = DeliteDosser(post, numberOfDosser);
         }
-
         static void FoundDosserBySurname(bool dossierIsNotFound, string[] surnameNameMidleName)
         {
             Console.Write("Enter Surname Name: ");
-            string data;
             string inputData = Console.ReadLine();
 
             for (int i = 0; i < surnameNameMidleName.Length; i++)
@@ -124,14 +109,12 @@ namespace ConsoleApplication12
 
                     Console.WriteLine($"Number of dosser {inputData} = {i}");
                     dossierIsNotFound = false;
-                    break;
 
                 }
             }
 
             if (dossierIsNotFound)
                 Console.WriteLine("Dosser not found");
-
 
         }
     }
