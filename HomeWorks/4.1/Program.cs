@@ -26,43 +26,16 @@ namespace ConsoleApplication12
                 switch (comandMenu)
                 {
                     case 1:
-                        InputDataDosser(surnameNameMidleName, post);
-                        //surnameNameMidleName = AddDataDosser(surnameNameMidleName, "Enter Surname Name Midle Name: ");
-                        //post = AddDataDosser(post, "Enter post worker: ");
+                        InputDataDosser(ref surnameNameMidleName,ref post);
                         break;
                     case 2:
-
-                        for (int i = 0; i < surnameNameMidleName.Length; i++)
-                        {
-
-                            Console.WriteLine("Surname Name Midle Name: " + surnameNameMidleName[i] + " Post: " + post[i]);
-                        }
-
+                        OutAllDossers(ref surnameNameMidleName, ref post);
                         break;
                     case 3:
-                        Console.Write("Enter number dosser for delite: ");
-                        comandMenu = Convert.ToInt32(Console.ReadLine());
-                        surnameNameMidleName = DeliteDosser(surnameNameMidleName, comandMenu);
-                        post = DeliteDosser(post, comandMenu);
+                        DeliteDosser(ref surnameNameMidleName, ref post);
                         break;
                     case 4:
-                        Console.Write("Enter Surname Name Midle Name worker: ");
-                        string inputData = Console.ReadLine();
-
-                        for (int i = 0; i < surnameNameMidleName.Length; i++)
-                        {
-                            if (surnameNameMidleName[i] == inputData)
-                            {
-                                dossierIsNotFound = false;
-                                break;
-                            }
-                        }
-
-                        if (dossierIsNotFound)
-                        {
-                            Console.WriteLine("Dosser not found");
-                        }
-
+                        FoundSurnameNameMidleName(ref dossierIsNotFound, ref surnameNameMidleName);
                         break;
                     case 5:
                         enableWorkProgram = false;
@@ -112,10 +85,50 @@ namespace ConsoleApplication12
             return modifiedArray;
         }
 
-        static void InputDataDosser(string[] surnameNameMidleName, string[] post)
+        static void InputDataDosser(ref string[] surnameNameMidleName, ref string[] post)
         {
             surnameNameMidleName = AddDataDosser(surnameNameMidleName, "Enter Surname Name Midle Name: ");
             post = AddDataDosser(post, "Enter post worker: ");
+        }
+
+        static void OutAllDossers(ref string[] surnameNameMidleName, ref string[] post)
+        {
+
+            for (int i = 0; i < surnameNameMidleName.Length; i++)
+            {
+
+                Console.WriteLine("Surname Name Midle Name: " + surnameNameMidleName[i] + " Post: " + post[i]);
+            }
+
+        }
+
+        static void DeliteDosser( ref string[] surnameNameMidleName, ref string[] post)
+        {
+            Console.Write("Enter number dosser for delite: ");
+            int numberOfDosser = Convert.ToInt32(Console.ReadLine());
+            surnameNameMidleName = DeliteDosser(surnameNameMidleName, numberOfDosser);
+            post = DeliteDosser(post, numberOfDosser);
+        }
+
+        static void FoundSurnameNameMidleName(ref bool dossierIsNotFound, ref string[] surnameNameMidleName)
+        {
+            Console.Write("Enter Surname Name Midle Name worker: ");
+            string inputData = Console.ReadLine();
+
+            for (int i = 0; i < surnameNameMidleName.Length; i++)
+            {
+                if (surnameNameMidleName[i] == inputData)
+                {
+                    dossierIsNotFound = false;
+                    break;
+                }
+            }
+
+            if (dossierIsNotFound)
+            {
+                Console.WriteLine("Dosser not found");
+            }
+
         }
     }
 }
