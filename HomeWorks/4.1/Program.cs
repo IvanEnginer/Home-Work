@@ -29,13 +29,13 @@ namespace ConsoleApplication12
                         InputDataDosser(ref surnameNameMidleName,ref post);
                         break;
                     case 2:
-                        OutAllDossers(ref surnameNameMidleName, ref post);
+                        OutAllDossers( surnameNameMidleName,  post);
                         break;
                     case 3:
                         DeliteDosser(ref surnameNameMidleName, ref post);
                         break;
                     case 4:
-                        FoundSurnameNameMidleName(ref dossierIsNotFound, ref surnameNameMidleName);
+                        FoundDosserBySurname( dossierIsNotFound,  surnameNameMidleName);
                         break;
                     case 5:
                         enableWorkProgram = false;
@@ -91,7 +91,7 @@ namespace ConsoleApplication12
             post = AddDataDosser(post, "Enter post worker: ");
         }
 
-        static void OutAllDossers(ref string[] surnameNameMidleName, ref string[] post)
+        static void OutAllDossers(string[] surnameNameMidleName, string[] post)
         {
 
             for (int i = 0; i < surnameNameMidleName.Length; i++)
@@ -110,24 +110,28 @@ namespace ConsoleApplication12
             post = DeliteDosser(post, numberOfDosser);
         }
 
-        static void FoundSurnameNameMidleName(ref bool dossierIsNotFound, ref string[] surnameNameMidleName)
+        static void FoundDosserBySurname(bool dossierIsNotFound, string[] surnameNameMidleName)
         {
-            Console.Write("Enter Surname Name Midle Name worker: ");
+            Console.Write("Enter Surname Name: ");
+            string data;
             string inputData = Console.ReadLine();
 
             for (int i = 0; i < surnameNameMidleName.Length; i++)
             {
-                if (surnameNameMidleName[i] == inputData)
+
+                if (surnameNameMidleName[i].Contains(inputData))
                 {
+
+                    Console.WriteLine($"Number of dosser {inputData} = {i}");
                     dossierIsNotFound = false;
                     break;
+
                 }
             }
 
             if (dossierIsNotFound)
-            {
                 Console.WriteLine("Dosser not found");
-            }
+
 
         }
     }
