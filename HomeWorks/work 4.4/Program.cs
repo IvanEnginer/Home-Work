@@ -38,25 +38,11 @@ namespace ConsoleApplication18
             {
                 Draw(map, counterHopThroughVoid);
 
-                Console.SetCursorPosition(userPostionX, userPositionY);
-                Console.Write('@');
-                ConsoleKeyInfo charKey = Console.ReadKey();
+                SetGamerPosition(userPostionX, userPositionY);
 
-                switch (charKey.Key)
-                {
-                    case ConsoleKey.LeftArrow:
-                        userPostionX--;
-                        break;
-                    case ConsoleKey.RightArrow:
-                        userPostionX++;
-                        break;
-                    case ConsoleKey.UpArrow:
-                        userPositionY--;
-                        break;
-                    case ConsoleKey.DownArrow:
-                        userPositionY++;
-                        break;
-                }
+                MoveGamer(ref userPostionX,ref userPositionY);
+
+                
 
                 if (map[userPositionY, userPostionX] == 'I')
                     counterHopThroughVoid = 0;
@@ -81,6 +67,32 @@ namespace ConsoleApplication18
             }
         }
 
+        static void SetGamerPosition(int userPostionX, int userPositionY)
+        {
+            Console.SetCursorPosition(userPostionX, userPositionY);
+            Console.Write('@');
+        }
+
+        static void MoveGamer(ref int userPostionX, ref int userPositionY)
+        {
+            ConsoleKeyInfo charKey = Console.ReadKey();
+
+            switch (charKey.Key)
+            {
+                case ConsoleKey.LeftArrow:
+                    userPostionX--;
+                    break;
+                case ConsoleKey.RightArrow:
+                    userPostionX++;
+                    break;
+                case ConsoleKey.UpArrow:
+                    userPositionY--;
+                    break;
+                case ConsoleKey.DownArrow:
+                    userPositionY++;
+                    break;
+            }
+        }
 
         static void Draw(char[,] map, int counterHopThroughVoid)
         {
@@ -125,6 +137,30 @@ namespace ConsoleApplication18
             }
 
             return map;
+        } 
+
+        static void ChekRulse(char[,] map, int userPositionY, int userPostionX, ref bool gameIsProcesed, int difficultLavel, int counterHopThroughVoid)
+        {
+            if (map[userPositionY, userPostionX] == 'I')
+                counterHopThroughVoid = 0;
+
+            if (map[userPositionY, userPostionX] == ' ')
+                counterHopThroughVoid++;
+
+            if (counterHopThroughVoid == difficultLavel)
+            {
+                Console.SetCursorPosition(20, 3);
+                Console.WriteLine("Fail, maximum hop ' ' colum " + difficultLavel);
+                Console.ReadKey();
+                gameIsProcesed = false;
+            }
+
+            if (map[userPositionY, userPostionX] == 'X')
+            {
+                Console.SetCursorPosition(20, 3);
+                Console.WriteLine("You Win");
+                gameIsProcesed = false;
+            }
         }
     }
 }
