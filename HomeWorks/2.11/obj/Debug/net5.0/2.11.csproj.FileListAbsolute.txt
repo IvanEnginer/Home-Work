@@ -1,0 +1,16 @@
+D:\Home-Work\HomeWorks\2.11\bin\Debug\net5.0\2.11.exe
+D:\Home-Work\HomeWorks\2.11\bin\Debug\net5.0\2.11.deps.json
+D:\Home-Work\HomeWorks\2.11\bin\Debug\net5.0\2.11.runtimeconfig.json
+D:\Home-Work\HomeWorks\2.11\bin\Debug\net5.0\2.11.runtimeconfig.dev.json
+D:\Home-Work\HomeWorks\2.11\bin\Debug\net5.0\2.11.dll
+D:\Home-Work\HomeWorks\2.11\bin\Debug\net5.0\ref\2.11.dll
+D:\Home-Work\HomeWorks\2.11\bin\Debug\net5.0\2.11.pdb
+D:\Home-Work\HomeWorks\2.11\obj\Debug\net5.0\2.11.GeneratedMSBuildEditorConfig.editorconfig
+D:\Home-Work\HomeWorks\2.11\obj\Debug\net5.0\2.11.AssemblyInfoInputs.cache
+D:\Home-Work\HomeWorks\2.11\obj\Debug\net5.0\2.11.AssemblyInfo.cs
+D:\Home-Work\HomeWorks\2.11\obj\Debug\net5.0\2.11.csproj.CoreCompileInputs.cache
+D:\Home-Work\HomeWorks\2.11\obj\Debug\net5.0\2.11.dll
+D:\Home-Work\HomeWorks\2.11\obj\Debug\net5.0\ref\2.11.dll
+D:\Home-Work\HomeWorks\2.11\obj\Debug\net5.0\2.11.pdb
+D:\Home-Work\HomeWorks\2.11\obj\Debug\net5.0\2.11.genruntimeconfig.cache
+D:\Home-Work\HomeWorks\2.11\obj\Debug\net5.0\2.11.csproj.AssemblyReference.cache
