@@ -6,14 +6,12 @@ namespace _2._11
     {
         static void Main(string[] args)
         {
-            string stringForAnalis = ")(()((())))";
+            string stringForAnalis = "(()((())))";
 
             int deap = 0;
             int maximumDeap = 0;
 
-//            bool vereficationIsAlowwed = true;
-
-            bool vereficationIsSuccefule;
+            bool vereficationIsSuccefule = true;
 
 
             for (int i = 0; i < stringForAnalis.Length; i++)
@@ -43,8 +41,8 @@ namespace _2._11
                 }                
             }
 
-            if (deap == 0)
-                Console.WriteLine(maximumDeap);
+            if (deap == 0 && vereficationIsSuccefule)
+                Console.WriteLine("Maximom deap = " + maximumDeap);
             else
                 Console.WriteLine("fail");
         }
