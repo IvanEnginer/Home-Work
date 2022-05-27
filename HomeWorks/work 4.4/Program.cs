@@ -42,7 +42,7 @@ namespace ConsoleApplication18
 
                 MoveGamer(ref userPostionX,ref userPositionY);
 
-                ChekRulsGame(map, userPositionY, userPostionX, ref  gameIsProcesed, difficultLavel, ref counterHopThroughVoid);
+                ChekGamerStatus(map, userPositionY, userPostionX, ref  gameIsProcesed, difficultLavel, ref counterHopThroughVoid);
             }
         }
 
@@ -113,7 +113,7 @@ namespace ConsoleApplication18
             return map;
         } 
 
-        static void ChekRulsGame(char[,] map, int userPositionY, int userPostionX, ref bool gameIsProcesed, int difficultLavel,ref int counterHopThroughVoid)
+        static void ChekGamerStatus(char[,] map, int userPositionY, int userPostionX, ref bool gameIsProcesed, int difficultLavel,ref int counterHopThroughVoid)
         {
             if (map[userPositionY, userPostionX] == 'I')
                counterHopThroughVoid = 0;
