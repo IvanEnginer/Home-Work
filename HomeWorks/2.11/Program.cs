@@ -13,7 +13,6 @@ namespace _2._11
 
             bool vereficationIsSuccefule = true;
 
-
             for (int i = 0; i < stringForAnalis.Length; i++)
             {
                 if (stringForAnalis[i] == '(')
@@ -36,15 +35,15 @@ namespace _2._11
 
                 }
                 else 
-                {
                     vereficationIsSuccefule = true;
-                }                
+                
             }
 
             if (deap == 0 && vereficationIsSuccefule)
                 Console.WriteLine("Maximom deap = " + maximumDeap);
             else
                 Console.WriteLine("fail");
+
         }
     }
 }
