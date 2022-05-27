@@ -42,28 +42,7 @@ namespace ConsoleApplication18
 
                 MoveGamer(ref userPostionX,ref userPositionY);
 
-                
-
-                if (map[userPositionY, userPostionX] == 'I')
-                    counterHopThroughVoid = 0;
-
-                if (map[userPositionY, userPostionX] == ' ')
-                    counterHopThroughVoid++;
-
-                if (counterHopThroughVoid == difficultLavel)
-                {
-                    Console.SetCursorPosition(20, 3);
-                    Console.WriteLine("Fail, maximum hop ' ' colum " + difficultLavel);
-                    Console.ReadKey();
-                    gameIsProcesed = false;
-                }
-
-                if (map[userPositionY, userPostionX] == 'X')
-                {
-                    Console.SetCursorPosition(20, 3);
-                    Console.WriteLine("You Win");
-                    gameIsProcesed = false;
-                }
+                ChekRulsGame(map, userPositionY, userPostionX, ref  gameIsProcesed, difficultLavel, ref counterHopThroughVoid);
             }
         }
 
@@ -103,14 +82,12 @@ namespace ConsoleApplication18
 
             for (int i = 0; i < map.GetLength(0); i++)
             {
-
                 for (int j = 0; j < map.GetLength(1); j++)
                 {
                     Console.Write(map[i, j]);
                 }
 
                 Console.WriteLine();
-
             }
         }
 
@@ -122,27 +99,24 @@ namespace ConsoleApplication18
 
             for (int i = 0; i < map.GetLength(0); i++)
             {
-
                 for (int j = 0; j < map.GetLength(1); j++)
                 {
-
                     int pointSimbol = random.Next(0, difficultLavel);
 
                     if (pointSimbol == (difficultLavel - 1))
                         map[i, j] = 'I';
                     else
                         map[i, j] = ' ';
-
                 }
             }
 
             return map;
         } 
 
-        static void ChekRulse(char[,] map, int userPositionY, int userPostionX, ref bool gameIsProcesed, int difficultLavel, int counterHopThroughVoid)
+        static void ChekRulsGame(char[,] map, int userPositionY, int userPostionX, ref bool gameIsProcesed, int difficultLavel,ref int counterHopThroughVoid)
         {
             if (map[userPositionY, userPostionX] == 'I')
-                counterHopThroughVoid = 0;
+               counterHopThroughVoid = 0;
 
             if (map[userPositionY, userPostionX] == ' ')
                 counterHopThroughVoid++;
