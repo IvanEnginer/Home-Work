@@ -16,6 +16,8 @@ namespace work_5._3
                 Console.WriteLine("Введите число, exit или sum: ");
                 string messageUser = Console.ReadLine();
 
+                int sum = 0;
+
                 if (int.TryParse(messageUser, out int number))
                 {
                     numbers.Add(number);
@@ -23,8 +25,6 @@ namespace work_5._3
 
                 if(messageUser == "sum")
                 {
-                    int sum = 0;
-
                     for (int i = 0; i < numbers.Count; i++)
                         sum += numbers[i];
 
