@@ -9,9 +9,9 @@ namespace work_5._3
         {
             List<int> numbers = new List<int>();
 
-            bool enableCounter = true;
+            bool continurCounting = true;
 
-            while (enableCounter)
+            while (continurCounting)
             {
                 Console.WriteLine("Введите число, exit или sum: ");
                 string messageUser = Console.ReadLine();
@@ -20,7 +20,8 @@ namespace work_5._3
                 {
                     numbers.Add(number);
                 }
-                else if(messageUser == "sum")
+
+                if(messageUser == "sum")
                 {
                     int sum = 0;
 
@@ -29,9 +30,10 @@ namespace work_5._3
 
                     Console.WriteLine("Sum = " + sum);
                 }
-                else if(messageUser == "exit")
+                
+                if(messageUser == "exit")
                 {
-                    enableCounter = false;
+                    continurCounting = false;
                 }
             }
         }
