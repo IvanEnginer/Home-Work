@@ -18,15 +18,15 @@ namespace work_5._2
 
             int totalPraceBays = 0;
 
-            foreach(int praceBay in praceBays)
+            while (praceBays.Count > 0)
             {
-                totalPraceBays += praceBay;
+                totalPraceBays += praceBays.Dequeue();
                 Console.WriteLine("Total prace bays " + totalPraceBays);
                 Console.ReadKey();
                 Console.Clear();
             }
 
-            Console.WriteLine("Queue end");
+            Console.WriteLine("Queue end. Total sum = " + totalPraceBays + '.');
         }
     }
 }
