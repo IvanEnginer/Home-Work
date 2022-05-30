@@ -11,12 +11,12 @@ namespace work_5._3
 
             bool continueCounting = true;
 
+            int sum = 0;
+
             while (continueCounting)
             {
                 Console.WriteLine("Введите число, exit или sum: ");
                 string messageUser = Console.ReadLine();
-
-                int sum = 0;
 
                 if (int.TryParse(messageUser, out int number))
                 {
