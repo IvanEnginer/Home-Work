@@ -6,30 +6,32 @@ namespace work_3._8
     {
         static void Main(string[] args)
         {
-            const int n = 5;
-            int[] a = new int[n] { 1, 2, 3, 4, 5 };
-            Console.WriteLine("Исходный массив:");
 
-            for (int i = 0; i < n; ++i)
-                Console.Write("\t" + a[i]);
+            int[] arrayForShift = new int[] { 1, 2, 3, 4 };
+
+            for (int i = 0; i < arrayForShift.Length; ++i)
+                Console.Write("\t" + arrayForShift[i]);
+
             Console.WriteLine();
 
-            Console.WriteLine("Введите k");
-            int k = Convert.ToInt16(Console.ReadLine());
+            int shift = Convert.ToInt32(Console.ReadLine());
 
-            for (int i = 0; i < k; ++i)
+            for(int i = 0; i < shift; i++)
             {
-                int aLast = a[n - 1];
-                for (int j = n - 1; j > 0; j--)
-                    a[j] = a[j - 1];
-                a[0] = aLast;
+
+                for(int j = 0; j < arrayForShift.Length - 1; j++)
+                {
+                    int swap = arrayForShift[j + 1];
+                    arrayForShift[j + 1] = arrayForShift[j];
+                    arrayForShift[j] = swap;
+                }
             }
 
-            Console.WriteLine("Новый массив: ");
-            for (int i = 0; i < n; ++i)
-                Console.Write("\t" + a[i]);
             Console.WriteLine();
-            Console.ReadKey();
+
+            for (int i = 0; i < arrayForShift.Length; ++i)
+                Console.Write("\t" + arrayForShift[i]);
+
         }
     }
 }
