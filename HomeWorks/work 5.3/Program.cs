@@ -19,8 +19,7 @@ namespace work_5._3
                 if (int.TryParse(messageUser, out int number))
                     numbers.Add(number);
 
- //               if (messageUser == "sum")
-                    Sum(messageUser, numbers);
+                Sum(messageUser, numbers);
                 
                 if(messageUser == "exit")
                     continueCounting = false;
