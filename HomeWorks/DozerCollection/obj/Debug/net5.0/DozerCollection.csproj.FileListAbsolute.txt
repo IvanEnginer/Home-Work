@@ -1,0 +1,15 @@
+D:\Home-Work\HomeWorks\DozerCollection\bin\Debug\net5.0\DozerCollection.exe
+D:\Home-Work\HomeWorks\DozerCollection\bin\Debug\net5.0\DozerCollection.deps.json
+D:\Home-Work\HomeWorks\DozerCollection\bin\Debug\net5.0\DozerCollection.runtimeconfig.json
+D:\Home-Work\HomeWorks\DozerCollection\bin\Debug\net5.0\DozerCollection.runtimeconfig.dev.json
+D:\Home-Work\HomeWorks\DozerCollection\bin\Debug\net5.0\DozerCollection.dll
+D:\Home-Work\HomeWorks\DozerCollection\bin\Debug\net5.0\ref\DozerCollection.dll
+D:\Home-Work\HomeWorks\DozerCollection\bin\Debug\net5.0\DozerCollection.pdb
+D:\Home-Work\HomeWorks\DozerCollection\obj\Debug\net5.0\DozerCollection.GeneratedMSBuildEditorConfig.editorconfig
+D:\Home-Work\HomeWorks\DozerCollection\obj\Debug\net5.0\DozerCollection.AssemblyInfoInputs.cache
+D:\Home-Work\HomeWorks\DozerCollection\obj\Debug\net5.0\DozerCollection.AssemblyInfo.cs
+D:\Home-Work\HomeWorks\DozerCollection\obj\Debug\net5.0\DozerCollection.csproj.CoreCompileInputs.cache
+D:\Home-Work\HomeWorks\DozerCollection\obj\Debug\net5.0\DozerCollection.dll
+D:\Home-Work\HomeWorks\DozerCollection\obj\Debug\net5.0\ref\DozerCollection.dll
+D:\Home-Work\HomeWorks\DozerCollection\obj\Debug\net5.0\DozerCollection.pdb
+D:\Home-Work\HomeWorks\DozerCollection\obj\Debug\net5.0\DozerCollection.genruntimeconfig.cache

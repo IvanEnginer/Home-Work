@@ -7,25 +7,25 @@ namespace ListsUnity
     {
         static void Main(string[] args)
         {
-            int[] array1 = new int[] {1, 2, 3};
-            int[] array2 = new int[] { 3, 2 };
+            int[] array1 = new int[] {1, 1, 2, 2, 3, 4};
+            int[] array2 = new int[] {3, 2, 2, 1, 7};
 
-            List<int> list1 = new List<int>();
-            List<int> list2 = new List<int>();
+            List<int> list = new List<int>();
 
-            ArrayToList(array1, ref list1);
-            ShowList(list1);
-
-            ArrayToList(array2, ref list2);
-            ShowList(list2);
-
-            UnitedLists(ref list1,ref list2);
+            AddToList(array1, ref list);
+            AddToList(array2, ref list);
+            ShowList(list);
         }
 
-        static void ArrayToList(int[] array, ref List<int> list)
+        static void AddToList(int[] array, ref List<int> list)
         {
             for (int i = 0; i < array.Length; i++)
-                list.Add(array[i]);
+            {
+                if (!list.Contains(array[i]))
+                {
+                    list.Add(array[i]);
+                }
+            }
         }
 
         static void ShowList(List<int> list)
@@ -34,23 +34,6 @@ namespace ListsUnity
                 Console.Write(list[i] + " ");
 
             Console.WriteLine();
-        }
-
-        static void UnitedLists(ref List<int> list1, ref List<int> list2)
-        {
-            for (int i = 0; i < list1.Count; i++)
-            {
-                if (list2.Contains(list1[i]))
-                {
-                    list2.Remove(list1[i]);
-                }
-            }
-
-            for (int i = 0; i < list2.Count; i++)
-                list1.Add(list2[i]);
-
-            for (int i = 0; i < list1.Count; i++)
-                Console.Write(list1[i] + " ");
         }
     }
 }
