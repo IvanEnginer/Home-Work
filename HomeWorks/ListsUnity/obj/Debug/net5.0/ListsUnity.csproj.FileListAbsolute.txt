@@ -13,3 +13,4 @@ D:\Home-Work\HomeWorks\ListsUnity\obj\Debug\net5.0\ListsUnity.dll
 D:\Home-Work\HomeWorks\ListsUnity\obj\Debug\net5.0\ref\ListsUnity.dll
 D:\Home-Work\HomeWorks\ListsUnity\obj\Debug\net5.0\ListsUnity.pdb
 D:\Home-Work\HomeWorks\ListsUnity\obj\Debug\net5.0\ListsUnity.genruntimeconfig.cache
+D:\Home-Work\HomeWorks\ListsUnity\obj\Debug\net5.0\ListsUnity.csproj.AssemblyReference.cache

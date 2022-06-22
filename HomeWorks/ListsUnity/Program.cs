@@ -20,7 +20,7 @@ namespace ListsUnity
         static void AddToList(int[] array, ref List<int> list)
         {
             for (int i = 0; i < array.Length; i++)
-                if (!list.Contains(array[i]))
+                if (list.Contains(array[i]) == false)
                     list.Add(array[i]);
         }
 
