@@ -1,0 +1,15 @@
+D:\Home-Work\HomeWorks\ListsUnity\bin\Debug\net5.0\ListsUnity.exe
+D:\Home-Work\HomeWorks\ListsUnity\bin\Debug\net5.0\ListsUnity.deps.json
+D:\Home-Work\HomeWorks\ListsUnity\bin\Debug\net5.0\ListsUnity.runtimeconfig.json
+D:\Home-Work\HomeWorks\ListsUnity\bin\Debug\net5.0\ListsUnity.runtimeconfig.dev.json
+D:\Home-Work\HomeWorks\ListsUnity\bin\Debug\net5.0\ListsUnity.dll
+D:\Home-Work\HomeWorks\ListsUnity\bin\Debug\net5.0\ref\ListsUnity.dll
+D:\Home-Work\HomeWorks\ListsUnity\bin\Debug\net5.0\ListsUnity.pdb
+D:\Home-Work\HomeWorks\ListsUnity\obj\Debug\net5.0\ListsUnity.GeneratedMSBuildEditorConfig.editorconfig
+D:\Home-Work\HomeWorks\ListsUnity\obj\Debug\net5.0\ListsUnity.AssemblyInfoInputs.cache
+D:\Home-Work\HomeWorks\ListsUnity\obj\Debug\net5.0\ListsUnity.AssemblyInfo.cs
+D:\Home-Work\HomeWorks\ListsUnity\obj\Debug\net5.0\ListsUnity.csproj.CoreCompileInputs.cache
+D:\Home-Work\HomeWorks\ListsUnity\obj\Debug\net5.0\ListsUnity.dll
+D:\Home-Work\HomeWorks\ListsUnity\obj\Debug\net5.0\ref\ListsUnity.dll
+D:\Home-Work\HomeWorks\ListsUnity\obj\Debug\net5.0\ListsUnity.pdb
+D:\Home-Work\HomeWorks\ListsUnity\obj\Debug\net5.0\ListsUnity.genruntimeconfig.cache
