@@ -14,13 +14,9 @@ namespace ConsoleApplication30
                 {"Tom", "Worker"} , { "Bom", "Medic"}
             };
 
-            List<string> list1 = new List<string>();
-
             int comandMenu;
             bool enableWorkProgram = true;
             string userMassege;
-
-
 
             while (enableWorkProgram)
             {
@@ -30,33 +26,27 @@ namespace ConsoleApplication30
 
                 userMassege = Console.ReadLine();
 
-                if (GetNumber(userMassege, out comandMenu))
+                int.TryParse(userMassege, out comandMenu);
+
+                switch (comandMenu)
                 {
-                    switch (comandMenu)
-                    {
-                        case 1:
-                            InputDataDosser(ref persens);
-                            break;
-                        case 2:
-                            OutAllDossers(ref persens);
-                            break;
-                        case 3:
-                            DeleteDosser(ref persens);
-                            break;
-                        case 4:
-                            enableWorkProgram = false;
-                            break;
-                    }
+                    case 1:
+                        AddDosser(ref persens);
+                    break;
+                    case 2:
+                        OutAllDossers(ref persens);
+                    break;
+                    case 3:
+                        DeleteDosser(ref persens);
+                    break;
+                    case 4:
+                        enableWorkProgram = false;
+                    break;
                 }
 
                 Console.ReadKey();
                 Console.Clear();
             }
-        }
-
-        static bool GetNumber(string text,out int number)
-        {
-            return int.TryParse(text, out number);
         }
 
         static void DeleteDosser(ref Dictionary<string, string> dictionary)
@@ -72,17 +62,25 @@ namespace ConsoleApplication30
                 Console.WriteLine("Delete succefule");
             }
             else
+            {
                 Console.WriteLine("This worker not existe");
+            }
         }
 
-        static void InputDataDosser(ref Dictionary<string, string> dictionary)
+        static void AddDosser(ref Dictionary<string, string> dictionary)
         {
-            string name = AddDataDosser("Enter Name: "); ;
-            string post = AddDataDosser("Enter post: ");
+            string name = InputData("Enter Name: ");
+            string post = InputData("Enter post: ");
 
-            dictionary.Add(name, post);
-
-            Console.WriteLine("Creat succefule");
+            if (dictionary.ContainsKey(name) == false)
+            {
+                dictionary.Add(name, post);
+                Console.WriteLine("Creat succefule");
+            }
+            else
+            {
+                Console.WriteLine(name + " exeste, try againe");
+            }
         }
 
         static void OutAllDossers(ref Dictionary<string, string> dictionary)
@@ -100,9 +98,8 @@ namespace ConsoleApplication30
                 }
             }
         }
-
-
-        static string AddDataDosser(string massege)
+        
+        static string InputData(string massege)
         {
             string data;
 
