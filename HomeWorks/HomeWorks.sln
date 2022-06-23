@@ -81,9 +81,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "work 5.4", "work 5.4\work 5
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "work 5.5", "work 5.5\work 5.5.csproj", "{B726D44F-2923-4B24-9437-B0EC57507EFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListsUnity", "ListsUnity\ListsUnity.csproj", "{B82343D8-4717-46AB-920A-A5507745E681}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListsUnity", "ListsUnity\ListsUnity.csproj", "{B82343D8-4717-46AB-920A-A5507745E681}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DozerCollection", "DozerCollection\DozerCollection.csproj", "{359884C8-FAD2-4511-AA91-F446604112F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DozerCollection", "DozerCollection\DozerCollection.csproj", "{359884C8-FAD2-4511-AA91-F446604112F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseDict", "BaseDict\BaseDict.csproj", "{ACAC253A-9ED9-4CD2-A1E8-DF1432C97DA4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -255,6 +257,10 @@ Global
 		{359884C8-FAD2-4511-AA91-F446604112F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{359884C8-FAD2-4511-AA91-F446604112F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{359884C8-FAD2-4511-AA91-F446604112F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACAC253A-9ED9-4CD2-A1E8-DF1432C97DA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACAC253A-9ED9-4CD2-A1E8-DF1432C97DA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACAC253A-9ED9-4CD2-A1E8-DF1432C97DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACAC253A-9ED9-4CD2-A1E8-DF1432C97DA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

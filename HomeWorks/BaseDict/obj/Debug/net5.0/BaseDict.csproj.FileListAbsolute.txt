@@ -1,0 +1,16 @@
+D:\Home-Work\HomeWorks\BaseDict\bin\Debug\net5.0\BaseDict.exe
+D:\Home-Work\HomeWorks\BaseDict\bin\Debug\net5.0\BaseDict.deps.json
+D:\Home-Work\HomeWorks\BaseDict\bin\Debug\net5.0\BaseDict.runtimeconfig.json
+D:\Home-Work\HomeWorks\BaseDict\bin\Debug\net5.0\BaseDict.runtimeconfig.dev.json
+D:\Home-Work\HomeWorks\BaseDict\bin\Debug\net5.0\BaseDict.dll
+D:\Home-Work\HomeWorks\BaseDict\bin\Debug\net5.0\ref\BaseDict.dll
+D:\Home-Work\HomeWorks\BaseDict\bin\Debug\net5.0\BaseDict.pdb
+D:\Home-Work\HomeWorks\BaseDict\obj\Debug\net5.0\BaseDict.GeneratedMSBuildEditorConfig.editorconfig
+D:\Home-Work\HomeWorks\BaseDict\obj\Debug\net5.0\BaseDict.AssemblyInfoInputs.cache
+D:\Home-Work\HomeWorks\BaseDict\obj\Debug\net5.0\BaseDict.AssemblyInfo.cs
+D:\Home-Work\HomeWorks\BaseDict\obj\Debug\net5.0\BaseDict.csproj.CoreCompileInputs.cache
+D:\Home-Work\HomeWorks\BaseDict\obj\Debug\net5.0\BaseDict.dll
+D:\Home-Work\HomeWorks\BaseDict\obj\Debug\net5.0\ref\BaseDict.dll
+D:\Home-Work\HomeWorks\BaseDict\obj\Debug\net5.0\BaseDict.pdb
+D:\Home-Work\HomeWorks\BaseDict\obj\Debug\net5.0\BaseDict.genruntimeconfig.cache
+D:\Home-Work\HomeWorks\BaseDict\obj\Debug\net5.0\BaseDict.csproj.AssemblyReference.cache
